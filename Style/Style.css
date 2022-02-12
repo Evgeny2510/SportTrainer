@@ -1,9 +1,12 @@
 
 body{
+    align-items: center;
     text-align: center;
     color: black;
     background: rgb(49, 49, 49);
     color: white;
+    /* padding-left: 30%; */
+    position: relative;
 }
 .header{
     padding: 5%;
@@ -102,19 +105,22 @@ body{
       color: cornsilk;
       align-items: stro;
   }
+
   .parallax {
     /* The image used */
-    background-image: url("../fonts/images/personal.jpg");
+    background-image: url("../fonts/images/5cc20850fa99af72e451c452.png");
   
     /* Set a specific height */
-    min-height: 200px; 
+    min-height: 200px;
+    min-width: 100%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 100%;
+    background-size: contain;
+   
+
     padding-bottom: 15%;
   }
   video{
@@ -153,6 +159,6 @@ li{
 }
 
 .text{
-    color: wheat;
+    color: white;
     padding: 15%;
 }
