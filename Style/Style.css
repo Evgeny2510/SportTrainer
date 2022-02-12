@@ -1,0 +1,158 @@
+
+body{
+    text-align: center;
+    color: black;
+    background: rgb(49, 49, 49);
+    color: white;
+}
+.header{
+    padding: 5%;
+}
+/* .dark-mode {
+    background: rgb(49, 49, 49);
+    color: white;
+} */
+.grid-container{
+    color: black;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 35%;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(9, 94, 109);
+    -webkit-transition: .9s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2189dd;
+    transition: .9s;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #d4cb4ea4;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .grid-container{
+      display:grid;
+      height: 400px;
+      align-content: center;
+      grid-template-columns: auto auto;
+      grid-gap: 100px;
+  }
+  .dark-mode .grid-container>div{
+    background: rgb(209, 209, 209);
+  }
+  .dark-mode .grid-container>div:hover{
+      background: rgb(93, 97, 110);
+      color: cornsilk;
+  }
+  .grid-container>div:hover{
+    background: rgb(61, 61, 61);
+    color: aliceblue;
+}
+  .grid-container>div{
+      background-color: darkgray;
+      text-align: center;
+      padding: 20px 0;
+      color: cornsilk;
+      align-items: stro;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("../fonts/images/personal.jpg");
+  
+    /* Set a specific height */
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
+    padding-bottom: 15%;
+  }
+  video{
+  width: 100%
+  
+  }
+  .parallax2 {
+    /* The image used */
+    
+    
+    /* Set a specific height */
+    min-height: 50px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+a{
+    text-decoration: none;
+    color: unset;
+}
+.h1{
+    color: white;
+}
+.center_text{
+padding: 50px;
+}
+.center_text1{
+    text-decoration-line: underline;
+
+}
+li{
+    vertical-align: center;
+}
+
+.text{
+    color: wheat;
+    padding: 15%;
+}
