@@ -115,10 +115,10 @@ body{
     min-width: 100%; 
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
    
 
     padding-bottom: 15%;
@@ -129,15 +129,15 @@ body{
   }
   .parallax2 {
     /* The image used */
-    
+    background-image: url("../fonts/images/DSC02231.jpg");
     
     /* Set a specific height */
-    min-height: 50px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
   }
 a{
