@@ -115,15 +115,19 @@ body{
     /* min-height: 200px; */
     /* min-width: 100%;  */
     min-height: 500px; 
-  
+   /* Set a specific width */
+   max-width: 100%;
+   width: 1200px; 
+    /* // assume this is the default size */
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     /* background-position-x: 50%; */
+    object-fit: cover;
    
-
     padding-bottom: 15%;
   }
   video{
@@ -152,6 +156,7 @@ a{
 .h1{
     color: white;
     text-align: center;
+    padding-top:  150px;
 }
 .center_text{
 padding: 50px;
