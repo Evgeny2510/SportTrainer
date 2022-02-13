@@ -1,4 +1,4 @@
-
+@import "Style.scss";
 body{
     align-items: center;
     text-align: center;
@@ -109,16 +109,19 @@ body{
   .parallax {
     /* The image used */
     background-image: url("../fonts/images/5cc20850fa99af72e451c452.png");
-  
+    /* background-image: url("https://www.videvo.net/video/rotating-around-man-lifting-weights/456552mp4"); */
+
     /* Set a specific height */
-    min-height: 200px;
-    min-width: 100%; 
+    /* min-height: 200px; */
+    /* min-width: 100%;  */
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position-x: 50%; */
    
 
     padding-bottom: 15%;
@@ -129,23 +132,26 @@ body{
   }
   .parallax2 {
     /* The image used */
-    background-image: url("../fonts/images/DSC02231.jpg");
+    /* background-image: url("../fonts/images/DSC02231.jpg"); */
     
     /* Set a specific height */
     min-height: 500px; 
   
     /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
+    
   }
+ 
 a{
     text-decoration: none;
     color: unset;
 }
 .h1{
     color: white;
+    text-align: center;
 }
 .center_text{
 padding: 50px;
