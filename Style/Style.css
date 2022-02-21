@@ -1,15 +1,17 @@
 @import "Style.scss";
 body{
-    align-items: center;
     text-align: center;
-    color: black;
     background: rgb(49, 49, 49);
     color: white;
-    /* padding-left: 30%; */
-    position: relative;
+    min-height: 100vh;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: content-box;
+    
 }
 .header{
     padding: 5%;
+    
 }
 /* .dark-mode {
     background: rgb(49, 49, 49);
@@ -20,7 +22,7 @@ body{
 }
 
 .switch {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 60px;
     height: 34px;
@@ -106,11 +108,14 @@ body{
       align-items: stro;
   }
 
+  header{
+    text-align: center;
+  }
+
   .parallax {
     /* The image used */
     background-image: url("../fonts/images/5cc20850fa99af72e451c452.png");
     /* background-image: url("https://www.videvo.net/video/rotating-around-man-lifting-weights/456552mp4"); */
-
     /* Set a specific height */
     /* min-height: 200px; */
     /* min-width: 100%;  */
@@ -172,4 +177,7 @@ li{
 .text{
     color: white;
     padding: 15%;
+}
+.iframe__footer{
+  max-width: 100%;
 }
